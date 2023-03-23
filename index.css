@@ -1,0 +1,40 @@
+.bodyOfWeb{
+  background-color: hsl(212, 45%, 89%);   
+}
+.qrComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px auto;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 28%;
+}
+@media only screen and (max-width:667px) {
+    .qrComponent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px auto;
+        background:hsl(0, 0%, 100%);
+        border-radius: 20px;
+        max-width: 90%;
+    } 
+}
+.qrImage{
+    width: 90%;
+    margin-top: 2vh;
+}
+.qrHeading{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Inter', sans-serif;
+}
+.qrParagraph{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Inter', sans-serif;
+    margin-top: 0vh;
+}
